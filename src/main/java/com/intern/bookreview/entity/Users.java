@@ -12,7 +12,7 @@ import java.sql.Timestamp;
 @NoArgsConstructor
 @Entity
 @Table(name = "user")
-public class User {
+public class Users {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -21,6 +21,7 @@ public class User {
     private String lastName;
     private String email;
     private String password;
+    private String role;
     private Timestamp createdAt;
     private Timestamp updatedAt;
     private Boolean isEnabled;

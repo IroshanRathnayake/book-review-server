@@ -62,4 +62,4 @@ The backend will be running on [http://localhost:8080](http://localhost:8080).
 
 ### Authentication
 - **POST /api/auth/login** - Login and receive a JWT token for secure access to protected routes.
-- **POST /api/auth/signup** - Register a new user. 
+- **POST /api/auth/signup** - Register a new users. 

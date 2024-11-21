@@ -10,7 +10,7 @@ import java.sql.Timestamp;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class UserDTO {
+public class UsersDTO {
     @NotNull(message = "ID cannot be null")
     private Long id;
 
@@ -33,6 +33,8 @@ public class UserDTO {
     @NotBlank(message = "Password cannot be blank")
     @Size(min = 6, max = 100, message = "Password must be between 6 and 100 characters")
     private String password;
+
+    private String role;
 
     @PastOrPresent(message = "CreatedAt must be in the past or present")
     private Timestamp createdAt;

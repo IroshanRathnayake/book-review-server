@@ -1,10 +1,7 @@
 package com.intern.bookreview.service;
 
-import com.intern.bookreview.dto.AuthRequestDTO;
-import com.intern.bookreview.dto.AuthResponseDTO;
-import com.intern.bookreview.dto.UserDTO;
+import org.springframework.security.core.userdetails.UserDetailsService;
 
-public interface AuthService {
-    AuthResponseDTO verify(AuthRequestDTO authRequestDTO);
-    UserDTO signup(UserDTO userDTO);
+public interface AuthService extends UserDetailsService {
+
 }
