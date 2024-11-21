@@ -19,6 +19,7 @@ Welcome to the backend of the Book Review System repository! This backend is bui
 ## Tech Stack
 - **Backend**: Java, Spring Boot
 - **Database**: MySQL
+- **Security**: Spring Security and JWT 
 - **API**: RESTful APIs for handling review operations (GET, POST, PUT, DELETE)
 
 ## Setup Instructions
